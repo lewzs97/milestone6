@@ -6,11 +6,11 @@ A simple music box on FPGA
 ![pin1](https://github.com/lewzs97/milestone6/blob/main/pin%20planner%201.JPG)
 ![pin2](https://github.com/lewzs97/milestone6/blob/main/pin%20planner%202.JPG)
 
-clk signal is connected to pin 62
-led 0 to 5 are state indicators for States (S0,S1,S2,S3,S4,S5) connected to pins 68 to 73.
-play input signal is connected to pin 81
-rst input signal is connected to pin 85 and is designated active low
-sound output signal to buzzer is connected to pin 77
+1.clk signal is connected to pin 62
+2.led 0 to 5 are state indicators for States (S0,S1,S2,S3,S4,S5) connected to pins 68 to 73.
+3.play input signal is connected to pin 81
+4.rst input signal is connected to pin 85 and is designated active low
+5.sound output signal to buzzer is connected to pin 77
 
 
 # Hardware circuit connection
