@@ -17,10 +17,10 @@ sound output signal to buzzer is connected to pin 77
 
 ![hardware](https://github.com/lewzs97/milestone6/blob/main/Circuit%20Connection.jpg)
 
-Connect pin 85 to rst input, control by a slide switch, indicate by a red LED
-Connect pin 81 to play input, control by a push button, indicate by a green LED
-A row of LEDs showing the states of system, from led5 (leftmost) to led0 (rightmost)
-NPN transistor (2N3904) is used, pin 77 connect to Base, Piezo buzzer (supply by +5Vdc) connect to Emitter, Ground connect to Collector.
+Connect pin 85 to rst input, control by a slide switch, indicate by a red LED  
+Connect pin 81 to play input, control by a push button, indicate by a green LED  
+A row of LEDs showing the states of system, from led5 (leftmost) to led0 (rightmost)  
+NPN transistor (2N3904) is used, pin 77 connect to Base, Piezo buzzer (supply by +5Vdc) connect to Emitter, Ground connect to Collector.  
 
 
 
@@ -29,13 +29,13 @@ NPN transistor (2N3904) is used, pin 77 connect to Base, Piezo buzzer (supply by
 ![rst1](https://github.com/lewzs97/milestone6/blob/main/Test%20rst%201.jpg)
 ![rst2](https://github.com/lewzs97/milestone6/blob/main/Test%20rst%202.jpg)
 
-LED lights up when slide switch is slided from right to left to right again to indicate negative edge reset.
+LED lights up when slide switch is slided from right to left to right again to indicate negative edge reset.  
 
 
 # Demo
 
-![vid](https://github.com/lewzs97/milestone6/blob/main/m6.mp4)
+https://github.com/lewzs97/milestone6/blob/main/m6.mp4
 
-There are some problems from the hardware as we can see from the video. However, the testbench and simulation are able to show the ideas that we would like to implement based on the code written.
-1.	The 6 LEDs showing the states of FSM do not function properly.
-2.	Piezo buzzer does not give proper sound output.
+There are some problems from the hardware as we can see from the video. However, the testbench and simulation are able to show the ideas that we would like to implement based on the code written.  
+1.	The 6 LEDs showing the states of FSM do not function properly.  
+2.	Piezo buzzer does not give proper sound output.  
