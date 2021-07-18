@@ -32,6 +32,14 @@ NPN transistor (2N3904) is used, pin 77 connect to Base, Piezo buzzer (supply by
 LED lights up when slide switch is slided from right to left to right again to indicate negative edge reset.  
 
 
+# Simulation Outcome
+
+![SIM](https://user-images.githubusercontent.com/87604271/126068850-64599af9-96c1-4e72-9a1d-9ad406f74a9b.jpeg)
+
+Simulation result showing correct state transition according to inputs
+
+
+
 # Demo
 
 https://github.com/lewzs97/milestone6/blob/main/m6.mp4
